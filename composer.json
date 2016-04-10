@@ -1,0 +1,21 @@
+{
+    "name": "pauko/yii2-masha",
+    "description": "This library allows users to mark page content fragments and get unique url to the page with marked fragments",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Khimyack",
+            "email": "paul.khimyack@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pauko\\mashaMarker\\": ""
+        }
+    }
+}
